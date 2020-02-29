@@ -84,8 +84,36 @@
             <label for="zip">Zip Code</label>
             <input id="zip" type="text" name="zip">
         </fieldset>
+        <fieldset>
+            <legend>
+                Newsletter
+            </legend>
+            <p>Select the newsletters you would like to recieve</p>
+            
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML News</label>
+            
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS News</label>
+            
+            <input type="checkbox" id="js" name="js">
+            <label for="js">Javascript News</label>
+            <p>Newsletter format</p>
+            
+            <input type="radio" id="format-h" name="contact-pref" value="format-h">
+            <label for="format-h">HTML</label>
+            
+            <input type="radio" id="format-p" value="format-p" name="contact-pref">
+            <label for="format-p">Plain text</label>
+            <label for="topics">Other topics you'd like to hear about</label>
+            <textarea name="topics" id="topics"></textarea>
+        </fieldset>
+        <button type="submit" id="submit">Sign Up</button>
 
     </form>
+    <footer>
+        <p>Copyright the Code Review</p>
+    </footer>
 </body>
 
 </html>
