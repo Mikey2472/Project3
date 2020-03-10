@@ -115,7 +115,6 @@ option {
 #zip {
     width: 30%;
     margin-right: 70%;
-    ;
 }
 
 .news {
@@ -189,11 +188,14 @@ footer {
     }
 
     .contact-inputs input,
-    #state,
-    #zip {
+    #state, #zip {
         width: 80%;
         padding: 20px 0;
         margin: 0;
         float: right;
+    }
+    .contact-inputs #zip {
+        width: 30%;
+        margin-right: 50%;
     }
 }
